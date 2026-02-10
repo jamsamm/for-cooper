@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letters for You ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Blurred Background -->
+    <div class="background"></div>
+    
+    <div class="container">
+        <!-- Envelope with Letter -->
+        <div class="envelope-section">
+            <div class="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body"></div>
+            </div>
+            
+            <div class="letter">
+                <div class="letter-content">
+                    <h1>💗 For You 💗</h1>
+                    <p>Letters for all the moments when you need me most...</p>
+                    <div class="doodles">
+                        <span class="doodle">💕</span>
+                        <span class="doodle">⭐</span>
+                        <span class="doodle">💕</span>
+                    </div>
+                    <p class="signature">With lots of love,<br>Jas</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Polaroid with Photo -->
+        <div class="polaroid-section">
+            <div class="polaroid">
+                <div class="polaroid-content">
+                    <img id="polaroidImage" src="Images/Image.png" alt="Our photo">
+                    <input type="file" id="photoUpload" accept="image/*" style="display: none;">
+                </div>
+                <div class="polaroid-caption">🤍</div>
+            </div>
+            <button class="upload-btn" onclick="document.getElementById('photoUpload').click()">Upload Photo</button>
+            <div class="paperclip"></div>
+        </div>
+
+        <!-- Open When Links -->
+        <div class="letters-section">
+            <h2>Open When...</h2>
+            <div class="letters-grid">
+                <a href="letters/sad.html" class="letter-link">
+                    <span class="emoji">😢</span>
+                    <span>You're Sad</span>
+                </a>
+                <a href="letters/tired.html" class="letter-link">
+                    <span class="emoji">😴</span>
+                    <span>You're Tired</span>
+                </a>
+                <a href="letters/arguing.html" class="letter-link">
+                    <span class="emoji">💔</span>
+                    <span>We're Arguing</span>
+                </a>
+                <a href="letters/missingme.html" class="letter-link">
+                    <span class="emoji">💭</span>
+                    <span>You Miss Me</span>
+                </a>
+                <a href="letters/doubting.html" class="letter-link">
+                    <span class="emoji">🤔</span>
+                    <span>You're Doubting Yourself</span>
+                </a>
+                <a href="letters/loveletter.html" class="letter-link">
+                    <span class="emoji">💌</span>
+                    <span>You Need Reminding How Much I Love You</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
